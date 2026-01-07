@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>秦祥晋 - 个人博客</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <i class="fas fa-code"></i> Qin's Blog
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#about" class="nav-link">关于我</a></li>
+                <li><a href="#blogs" class="nav-link">技术博客</a></li>
+                <li><a href="#projects" class="nav-link">项目展示</a></li>
+                <li><a href="#contact" class="nav-link">联系</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="greeting">你好，我是</span>
+                <h1 class="name">秦祥晋</h1>
+                <h2 class="title">计算机专业大一新生</h2>
+                <p class="hero-description">
+                    热爱编程，专注于Web开发和算法学习。<br>
+                    正在不断探索计算机科学的奥秘，期待与志同道合的朋友交流学习。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">了解更多</a>
+                    <a href="#contact" class="btn btn-secondary">联系我</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link" title="CSDN"><i class="fas fa-code"></i></a>
+                    <a href="#" class="social-link" title="知乎"><i class="fab fa-zhihu"></i></a>
+                    <a href="#" class="social-link" title="邮箱"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-container">
+                    <div class="avatar">
+                        <img src="avatar.jpg" alt="秦祥晋的头像" class="avatar-img">
+                    </div>
+                    <div class="avatar-ring"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 关于我部分 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-info">
+                    <h3>基本信息</h3>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <span>秦祥晋</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>计算机科学与技术 大一</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>中国</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>2006年</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3>技能标签</h3>
+                    <div class="skills-container">
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">数据结构</span>
+                        <span class="skill-tag">算法</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Dev-C++</span>
+                    </div>
+                </div>
+                <div class="about-goals">
+                    <h3>学习目标</h3>
+                    <div class="goals-list">
+                        <div class="goal-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>扎实掌握C++编程基础</span>
+                        </div>
+                        <div class="goal-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>学习Web前端开发技术</span>
+                        </div>
+                        <div class="goal-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>深入理解数据结构与算法</span>
+                        </div>
+                        <div class="goal-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>参与开源项目或竞赛</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术博客部分 -->
+    <section id="blogs" class="blogs">
+        <div class="container">
+            <h2 class="section-title">技术博客</h2>
+            <p class="section-subtitle">记录学习心得与成长历程</p>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">2026年1月6日</span>
+                        <h3 class="blog-title">我的编程学习之旅</h3>
+                        <p class="blog-excerpt">作为一名刚踏入大学校门的计算机专业学生，我想分享...</p>
+                        <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">2026年1月5日</span>
+                        <h3 class="blog-title">C++入门：Hello World</h3>
+                        <p class="blog-excerpt">编程的第一步，从经典的Hello World开始...</p>
+                        <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">2026年1月4日</span>
+                        <h3 class="blog-title">理解变量与数据类型</h3>
+                        <p class="blog-excerpt">变量是编程中最基本的概念之一，让我们一起...</p>
+                        <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">2026年1月3日</span>
+                        <h3 class="blog-title">算法入门：排序基础</h3>
+                        <p class="blog-excerpt">排序是算法学习中最经典的问题，让我们了解...</p>
+                        <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示部分 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">项目展示</h2>
+            <p class="section-subtitle">我的学习成果与实践项目</p>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="project-title">计算器程序</h3>
+                    <p class="project-description">使用C++实现的简易计算器，支持加减乘除等基本运算。</p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>控制台</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-eye"></i> 查看</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-list-ol"></i>
+                    </div>
+                    <h3 class="project-title">成绩管理系统</h3>
+                    <p class="project-description">使用结构体和文件操作实现的学生成绩管理程序。</p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>结构体</span>
+                        <span>文件操作</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-eye"></i> 查看</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="project-title">猜数字游戏</h3>
+                    <p class="project-description">一个简单的控制台猜数字游戏，练习随机数和循环控制。</p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>随机数</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-eye"></i> 查看</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="project-title">个人网页</h3>
+                    <p class="project-description">使用HTML和CSS构建的个人主页网站。</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Web</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-eye"></i> 查看</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系部分 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <p class="section-subtitle">期待与你的交流与合作</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>邮箱</h4>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-weixin"></i>
+                        <div>
+                            <h4>微信</h4>
+                            <p>WeChat ID</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-qq"></i>
+                        <div>
+                            <h4>QQ</h4>
+                            <p>123456789</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>所在城市</h4>
+                            <p>中国</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="你的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="你的邮箱" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="主题">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="请输入你的消息..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i> Qin's Blog
+                </div>
+                <p class="footer-text">© 2026 秦祥晋. 保留所有权利.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-code"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-zhihu"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
